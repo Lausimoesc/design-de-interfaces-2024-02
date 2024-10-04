@@ -1,0 +1,57 @@
+/* PRIMEIRA AULA CSS */
+/* feito para separar do js sendo FOCADO
+no visual de uma página */
+
+/* a vantagem do css ser em um arquivo separado do js,
+ é que ele padroniza varias estruturas de paginas diferentes */
+
+/* cores de titulos */
+
+/* o comando funciona: */
+/* "TAG" {propriedade:valor} */
+/* H1, H2, H3 {color:red} */
+
+/* mudanças com texto */
+/* podemos mudar: cor, tamanho, sombra entre outros */
+body{
+    background-color:#a66bd6;
+}
+
+h1,h2 {
+    color: #000000;
+    text-align:left;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+p {
+    color: red;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* especificando partes (prmeira letra) */
+p:first-letter{
+    font-size: 200%;
+}
+
+
+/* class chamada "alerta" (para usar mais de uma vez) */
+.alerta {
+    color:rgb(246, 255, 0);
+    font-family: "Montserrat", sans-serif;
+}
+
+/* ID  (uso UNICO)*/
+#ID {
+    color:rgb(31, 230, 0);
+}
+
+/* USANDO FONTES EXTERNAS | GOOGLE FONTES */
+/* LINK DO CODE DA FONT PARA O HEAD */
+/* font-family: "Montserrat", sans-serif; */
+ 
+/* USANDO FONTES A PARTIR DE DOWNLOAD */
+/*     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="/LOCAL/FONTES/[NOMEFONTE]" rel="stylesheet"> */
+
+
+
