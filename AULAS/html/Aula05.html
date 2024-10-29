@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Figuras</title>
+    <style type="text/css">
+      * {box-sizing: border-box;}
+
+      .um {
+        background-color: rgb(85, 176, 32);
+      }
+      .dois{
+        background-color: rgb(171, 255, 154);
+        border:2px solid rgb(85, 176, 32);
+      }
+      .tres{
+        background-color: rgb(129, 114, 215);
+        border:2px solid rgb(71, 2, 127);
+        padding:4px;
+      }
+      .quatro {
+        background-color: rgb(251, 255, 4);
+        border:2px solid rgb(168, 170, 0);
+        padding:4px;
+        margin: 4px;
+      }
+      .cinco {
+        background-color: rgb(228, 100, 100);
+        border:2px dotted rgba(83, 2, 2, 0.787);
+        padding-left:20px;
+        
+      }
+      .seis {
+        background-color: rgb(87, 92, 252);
+        border:2px solid blue;
+        width: 100px;
+        height:80px;
+      }
+      .sete {
+        background-color: rgb(242, 0, 255);
+        border:2px solid rgb(142, 0, 150);
+        width: 100px;
+        height:80px;
+        padding:6px;
+        margin: 6px;
+
+      }
+
+      .oito{
+        border:2px solid blue;
+        margin:4px;
+        background-image: url("https://sites.riogrande.ifrs.edu.br/arquivos/1810497/tads.png"); 
+      }
+
+      .nove{
+        border:2px solid blue;
+        margin:4px;
+        background-image: url("https://logodownload.org/wp-content/uploads/2017/10/w3c-logo-6.png"); 
+        width: 50vw;
+        height:50vw;
+      }
+
+      .dez
+      {
+        border:2px solid blue;
+        margin:4px;
+        width: 50vw;
+        height:50vw;
+        background-image: url("https://logodownload.org/wp-content/uploads/2017/10/w3c-logo-6.png"); 
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* background-size: cover; */
+        /* background-size: 25vw auto; */
+        /* background-position: 10vw 10vw; */
+        
+      }
+
+/* Leitores de tela e robos da internet(SEO)não leem css. 
+Quando a imagem é de fundo, objetivo só estético, deve-se
+usar imagem no css (com background-image).
+
+Quando a imagem passa alguma informação que deva ser lida
+por leitores de telas e robos SEO deve-se usar o img no html e. 
+no css ajustar sua posição: width:100% 
+A imagem adapta-se ao tamanho que pode ocupar. 
+ */
+
+      .onze
+      {
+        border:2px solid blue;
+        margin:4px;
+        width: 50vw;
+        height:50vw; 
+            
+      }
+      .onze img{
+        width:100%; 
+      }
+      
+
+           
+    </style>
+  </head>
+  <body>
+    
+     
+
+        <div class="um">1</div> 
+        <div class="dois">2</div> 
+        <div class="tres">3</div> 
+        <div class="quatro">4</div> 
+        <div class="cinco">5</div> 
+        <div class="seis">6</div> 
+        <div class="sete">7</div> 
+
+        <div class="oito">8</div> 
+        <div class="nove">9</div> 
+        <div class="dez">10</div> 
+        
+        <div class="onze">11 
+          <img src="https://logodownload.org/wp-content/uploads/2017/10/w3c-logo-6.png">
+        </div>
+    
+  </body>
+</html>
